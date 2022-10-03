@@ -32,10 +32,21 @@ html{
   }
 
   .menu{
+    display: inline-block;
+  }
+
+.menu-li{
+    display: flex;  
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--MenuColor);
     font-size: 1.6rem;
     font-family: var(--FontRubik);
-    color: var(--MenuColor);
-  }
+}
 
 .main{
     height: 100vh;
@@ -58,8 +69,9 @@ html{
     word-spacing: 100vw;
 }
 
-@media all and (min-width: 768px){
+@media screen and (min-width: 768px){
     .header{
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding-top: 2rem;
