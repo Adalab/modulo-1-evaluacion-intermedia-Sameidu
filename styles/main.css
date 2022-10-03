@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --FontRubik: 'Rubik', sans-serif;
+    --MenuColor: #4a4a4a;
+    --Backgroundcolor: #3CDBC0;
+    --MainText: #FFFFFF;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Backgroundcolor);
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--MainText);
+    font-family: var(--FontRubik);
+}
+
+.separation{
+    word-spacing: 100vw;
+}
+
+@media all and (min-width: 768px){
+    
+}
