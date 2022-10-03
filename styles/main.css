@@ -79,6 +79,10 @@ html{
         padding-left: 3rem;
         padding-right: 3rem;
     }
+
+    .logo{
+        padding-bottom: 0rem;
+    }
     
     .title{
         font-size: 4rem;
