@@ -11,6 +11,7 @@ html{
     --MenuColor: #4a4a4a;
     --Backgroundcolor: #3CDBC0;
     --MainText: #FFFFFF;
+    font-family: var(--FontRubik);
 }
 
 .header {
@@ -31,21 +32,18 @@ html{
     padding-bottom: 1rem;
   }
 
-  .menu{
-    display: inline-block;
-  }
-
-.menu-li{
+  .menu-li{
     display: flex;  
     justify-content: space-around;
     gap: 2rem;
+    text-transform: uppercase;
+    padding: 20px;
 }
 
 .link{
     text-decoration: none;
     color: var(--MenuColor);
     font-size: 1.6rem;
-    font-family: var(--FontRubik);
 }
 
 .main{
@@ -62,7 +60,7 @@ html{
     font-weight: 600;
     text-align: center;
     color: var(--MainText);
-    font-family: var(--FontRubik);
+    text-transform: capitalize;
 }
 
 .separation{
@@ -71,7 +69,6 @@ html{
 
 @media screen and (min-width: 768px){
     .header{
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding-top: 2rem;
